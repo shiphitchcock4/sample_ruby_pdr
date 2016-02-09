@@ -39,7 +39,7 @@ build:
 
 integrations:
   hub:
-    - integrationName: ship-quay
-      type: quay
+    - integrationName: ship-pdr
+      type: private docker registry
      
 
