@@ -21,7 +21,7 @@ env:
 
 build:
   pre_ci:
-    - docker build -t=quay.io/shippablequay/hitchcock2_sample_ruby .
+    - docker build -t=quay.io/shippablequay/hitchcock4_sample_ruby .
 
   pre_ci_boot:
     image_name: quay.io/shippablequay/hitchcock4_sample_ruby
@@ -38,7 +38,7 @@ build:
 
 integrations:
   hub:
-    - integrationName: ship-quay
-      type: quay
+    - integrationName: ship-pdr
+      type: private docker registry
      
 
